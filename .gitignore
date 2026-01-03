@@ -1,0 +1,131 @@
+# CMake build directories
+build/
+builds/
+Build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Results/Output directories (common in this course)
+results/
+bin/
+lib/
+install/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Qt-MOC
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# QtCreator
+*.autosave
+*.user
+*.user.*
+*.creator.user*
+
+# CLion
+.idea/
+cmake-build-*/
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*#
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Package managers
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+
+# Testing
+Testing/
+test_output/
+*.test
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Core dumps
+core
+core.*
+
+# Dependencies
+deps/
+dependencies/
+third_party/build/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
